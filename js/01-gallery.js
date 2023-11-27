@@ -39,13 +39,4 @@ function handleClick(event) {
     >
 `);
   instance.show();
-
-  // /
-  document.addEventListener("keypress", handlePress);
-  function handlePress(event) {
-    console.log(event);
-    if (event.code === "Escape") {
-      instance.close();
-    }
-  }
 }
